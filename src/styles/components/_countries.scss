@@ -1,5 +1,6 @@
 .countries {
   text-align: center;
+ 
 
   .radio-container {
     justify-content: space-around;
@@ -10,6 +11,8 @@
     padding: 10px;
     color: $white;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.452);
+
+    
 
     input {
       transform: translateY(1px);
@@ -56,5 +59,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 0.5rem;
   }
 }
